@@ -1,0 +1,16 @@
+{
+  "name": "@ydzs/utils",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "@vue/shared": "catalog:",
+    "vue-router": "catalog:",
+    "clsx": "catalog:",
+    "defu": "catalog:",
+    "nprogress": "catalog:",
+    "tailwind-merge": "catalog:",
+    "lodash.clonedeep": "catalog:",
+    "@ctrl/tinycolor": "catalog:",
+    "theme-colors": "catalog:"
+  }
+}

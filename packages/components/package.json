@@ -1,0 +1,33 @@
+{
+  "name": "@ydzs/comp",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./ui/lib/index.ts",
+  "module": "./ui/es/index.ts",
+  "files": [
+    "ui"
+  ],
+  "types": "./index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "catalog:",
+    "ant-design-vue": "catalog:"
+  },
+  "devDependencies": {
+    "@ydzs/utils": "workspace:*",
+    "@vitejs/plugin-vue": "catalog:",
+    "less": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-vue-setup-extend": "catalog:",
+    "@vue/runtime-dom": "catalog:",
+    "@iconify/vue": "catalog:"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

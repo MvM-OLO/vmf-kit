@@ -1,0 +1,19 @@
+{
+  "name": "@ydzs/plugins",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "echarts": "catalog:",
+    "@vueuse/core": "catalog:",
+    "vue": "catalog:"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
