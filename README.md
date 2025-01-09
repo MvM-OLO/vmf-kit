@@ -1,5 +1,5 @@
 <p align="center"> <span style="font-size:40px">👻</span> </p>
-
+<p align="center"> <span style="font-size:40px">ALL IN ONE</span> </p>
 <h1 align="center">云滴前端整合包</h1>
 <p align="center">一个 <span style="text-decoration:line-through;">实用</span>（开发中）的前端库。</p>
 
