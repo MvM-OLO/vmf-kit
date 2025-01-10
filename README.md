@@ -83,7 +83,7 @@ import { merge, cn } from "ydzs-front/utils";
 
 ## 文档地址
 
-[[ISC](./LICENSE)](https://ydzs-front.vercel.app/)
+[文档地址](https://ydzs-front.vercel.app/)
 
 ## 👥 作者
 
