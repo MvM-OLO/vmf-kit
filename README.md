@@ -1,4 +1,6 @@
-<p align="center"> <span style="font-size:50px">👻</span> </p>
+<p align="center"> <span >
+<img src="./public/ydzs_front.png" width = "50" height = "50" alt="图片名称" align=center />
+</p>
 
 <h1 align="center">云滴前端整合包</h1>
 <p align="center">一个 <span style="text-decoration:line-through;">实用</span>（开发中）的前端库。</p>

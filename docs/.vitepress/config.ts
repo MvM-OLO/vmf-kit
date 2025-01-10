@@ -6,6 +6,7 @@ export default defineConfig({
   description: "基于 Vue3 的前端整合包",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/ydzs_front.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
