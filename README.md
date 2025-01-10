@@ -83,9 +83,9 @@ import { merge, cn } from "ydzs-front/utils";
 
 本库使用 TypeScript 编写，提供完整的类型定义文件，支持代码提示。
 
-## 📄 License
+## 文档地址
 
-[ISC](./LICENSE)
+[文档地址](https://ydzs-front.vercel.app/)
 
 ## 👥 作者
 
