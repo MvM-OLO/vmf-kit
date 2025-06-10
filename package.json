@@ -1,6 +1,6 @@
 {
   "name": "ydzs-front",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "type": "module",
@@ -49,18 +49,21 @@
     }
   },
   "devDependencies": {
+    "@types/node": "^22.13.1",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
+    "fs-extra": "catalog:",
     "vite": "catalog:",
     "vite-plugin-dts": "catalog:",
-    "fs-extra": "catalog:",
     "vitepress": "catalog:"
   },
   "scripts": {
     "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "set original": "npm config set registry https://registry.npmjs.org/",
+    "set mirror": "npm config set registry https://registry.npmmirror.com/"
   },
   "keywords": [
     "monorepo"

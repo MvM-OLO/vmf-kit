@@ -2,8 +2,8 @@
   "name": "@ydzs/comp",
   "version": "0.0.1",
   "type": "module",
-  "main": "./ui/lib/index.ts",
-  "module": "./ui/es/index.ts",
+  "main": "./index.ts",
+  "module": "./index.ts",
   "files": [
     "ui"
   ],
