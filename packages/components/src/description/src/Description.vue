@@ -10,7 +10,7 @@ import {
 } from "vue";
 import { Descriptions, type DescriptionsProps } from "ant-design-vue";
 import type { DescInstance, DescItem, DescriptionProps } from "./type";
-import { isFunction } from "@vm-kit/utils";
+import { isFunction } from "@vmf-kit/utils";
 
 const props = {
   useCollapse: { type: Boolean, default: true },

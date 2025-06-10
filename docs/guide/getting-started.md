@@ -2,7 +2,7 @@
 
 ## 介绍
 
-vm-kit 是一个基于 Vue 3 的前端整合包，包含了组件库、工具库、Hooks、常量和插件等多个模块，帮助你快速构建现代化的 Web 应用。
+vmf-kit 是一个基于 Vue 3 的前端整合包，包含了组件库、工具库、Hooks、常量和插件等多个模块，帮助你快速构建现代化的 Web 应用。
 
 ## 安装
 
@@ -10,26 +10,26 @@ vm-kit 是一个基于 Vue 3 的前端整合包，包含了组件库、工具库
 
 ```bash
 # 使用 npm
-npm install vm-kit
+npm install vmf-kit
 
 # 使用 yarn
-yarn add vm-kit
+yarn add vmf-kit
 
 # 使用 pnpm
-pnpm add vm-kit
+pnpm add vmf-kit
 ```
 
 ## 使用示例
 
 ```typescript
 // 方式一：从主包导入
-import { Constants, Utils } from "vm-kit";
+import { Constants, Utils } from "vmf-kit";
 const { PCA_CODE } = Constants;
 const { merge, cn } = Utils;
 
 // 方式二：从子包导入（推荐，tree-shaking 更友好）
-import { PCA_CODE } from "vm-kit/constants";
-import { merge, cn } from "vm-kit/utils";
+import { PCA_CODE } from "vmf-kit/constants";
+import { merge, cn } from "vmf-kit/utils";
 ```
 
 ## 模块说明
@@ -62,7 +62,7 @@ import { merge, cn } from "vm-kit/utils";
 
 ## 浏览器兼容性
 
-vm-kit 支持所有现代浏览器，需要：
+vmf-kit 支持所有现代浏览器，需要：
 
 - Chrome >= 87
 - Firefox >= 78

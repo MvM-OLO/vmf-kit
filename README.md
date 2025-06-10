@@ -2,40 +2,40 @@
 <img src="./public/multifunc_kit_icon.png" width = "50" height = "50" alt="图片名称" align=center />
 </p>
 
-<h1 align="center">VM-KIT VUE3 多功能前端整合包</h1>
+<h1 align="center">vmf-kit VUE3 多功能前端整合包</h1>
 <p align="center">一个 <span style="text-decoration:line-through;">实用</span>（开发中）的前端库。</p>
 
 ## 📦 安装
 
 ```bash
-npm install vm-kit
+npm install vmf-kit
 # 或者
-pnpm add vm-kit
+pnpm add vmf-kit
 # 或者
-yarn add vm-kit
+yarn add vmf-kit
 ```
 
 ## 🔨 模块说明
 
-| 模块       | 描述                 | 路径              |
-| :--------- | :------------------- | :---------------- |
-| Constants  | 常量                 | vm-kit/constants  |
-| Plugins    | 二次封装的第三方插件 | vm-kit/plugins    |
-| Components | 通用组件             | vm-kit/components |
-| Utils      | 工具函数             | vm-kit/utils      |
-| Hooks      | Vue Hooks            | vm-kit/hooks      |
+| 模块       | 描述                 | 路径               |
+| :--------- | :------------------- | :----------------- |
+| Constants  | 常量                 | vmf-kit/constants  |
+| Plugins    | 二次封装的第三方插件 | vmf-kit/plugins    |
+| Components | 通用组件             | vmf-kit/components |
+| Utils      | 工具函数             | vmf-kit/utils      |
+| Hooks      | Vue Hooks            | vmf-kit/hooks      |
 
 ## 📝 使用示例
 
 ```typescript
 // 方式一：从主包导入
-import { Constants, Utils } from "vm-kit";
+import { Constants, Utils } from "vmf-kit";
 const { PCA_CODE } = Constants;
 const { merge, cn } = Utils;
 
 // 方式二：从子包导入（推荐，tree-shaking 更友好）
-import { PCA_CODE } from "vm-kit/constants";
-import { merge, cn } from "vm-kit/utils";
+import { PCA_CODE } from "vmf-kit/constants";
+import { merge, cn } from "vmf-kit/utils";
 ```
 
 ## 📚 详细说明
@@ -85,7 +85,7 @@ import { merge, cn } from "vm-kit/utils";
 
 ## 文档地址
 
-[文档地址](https://vm-kit.vercel.app/)
+[文档地址](https://vmf-kit.vercel.app/)
 
 ## 👥 作者
 

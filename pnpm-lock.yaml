@@ -118,10 +118,10 @@ importers:
       "@ant-design/icons-vue":
         specifier: "catalog:"
         version: 7.0.1(vue@3.5.13(typescript@5.4.2))
-      "@vm-kit/comp":
+      "@vmf-kit/comp":
         specifier: workspace:*
         version: link:../packages/components
-      "@vm-kit/plugins":
+      "@vmf-kit/plugins":
         specifier: workspace:*
         version: link:../packages/plugins
       ant-design-vue:
@@ -171,7 +171,7 @@ importers:
       "@vue/runtime-dom":
         specifier: "catalog:"
         version: 3.5.13
-      "@vm-kit/utils":
+      "@vmf-kit/utils":
         specifier: workspace:*
         version: link:../utils
       less:

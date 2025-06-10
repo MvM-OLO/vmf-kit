@@ -1,5 +1,5 @@
 {
-  "name": "@vm-kit/plugins",
+  "name": "@vmf-kit/plugins",
   "version": "0.0.1",
   "type": "module",
   "main": "./index.ts",

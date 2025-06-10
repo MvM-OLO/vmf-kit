@@ -1,5 +1,5 @@
 {
-  "name": "@vm-kit/comp",
+  "name": "@vmf-kit/comp",
   "version": "0.0.1",
   "type": "module",
   "main": "./index.ts",
@@ -18,7 +18,7 @@
     "ant-design-vue": "catalog:"
   },
   "devDependencies": {
-    "@vm-kit/utils": "workspace:*",
+    "@vmf-kit/utils": "workspace:*",
     "@vitejs/plugin-vue": "catalog:",
     "less": "catalog:",
     "vite": "catalog:",

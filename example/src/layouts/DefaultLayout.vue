@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="header-content">
-        <div class="logo"><img :src="Logo" /> vm-kit 前端组件库</div>
+        <div class="logo"><img :src="Logo" /> vmf-kit 前端组件库</div>
         <div class="header-right"></div>
       </div>
     </header>

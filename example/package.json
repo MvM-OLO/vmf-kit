@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vm-kit/comp": "workspace:*",
-    "@vm-kit/plugins": "workspace:*",
+    "@vmf-kit/comp": "workspace:*",
+    "@vmf-kit/plugins": "workspace:*",
     "less": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:",

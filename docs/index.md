@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "VM KIT"
+  name: "VMF KIT"
   text: "Monorepo 前端整合包 "
   tagline: 组件库 (Components) 工具库(Utils) VueHooks 常量(Constants) 第三方插件(Plugins)
   actions:

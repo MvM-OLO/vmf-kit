@@ -2,19 +2,19 @@
 
 ## 介绍
 
-`@vm-kit/utils` 提供了一系列实用的工具函数，帮助你更高效地处理常见的开发场景。
+`@vmf-kit/utils` 提供了一系列实用的工具函数，帮助你更高效地处理常见的开发场景。
 
 ## 安装
 
 ```bash
-npm install @vm-kit/utils
+npm install @vmf-kit/utils
 ```
 
 ## 使用方式
 
 ```ts
 // 按需导入
-import { someUtil } from "@vm-kit/utils";
+import { someUtil } from "@vmf-kit/utils";
 
 // 使用示例
 someUtil();
@@ -71,7 +71,7 @@ someUtil();
 ### 日期格式化
 
 ```ts
-import { formatDate } from "@vm-kit/utils";
+import { formatDate } from "@vmf-kit/utils";
 
 const date = new Date();
 const formattedDate = formatDate(date, "YYYY-MM-DD");
@@ -81,7 +81,7 @@ console.log(formattedDate); // 2024-01-01
 ### 数组转树形结构
 
 ```ts
-import { arrayToTree } from "@vm-kit/utils";
+import { arrayToTree } from "@vmf-kit/utils";
 
 const array = [
   { id: 1, name: "节点1", parentId: 0 },
@@ -99,7 +99,7 @@ const tree = arrayToTree(array, {
 ### 防抖函数
 
 ```ts
-import { debounce } from "@vm-kit/utils";
+import { debounce } from "@vmf-kit/utils";
 
 const handleSearch = debounce((value: string) => {
   console.log("搜索:", value);

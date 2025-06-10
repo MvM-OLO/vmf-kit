@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "VM KIT",
+  title: "VMF KIT",
   description: "基于 Vue3 的前端整合包",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -73,7 +73,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present vm-kit",
+      copyright: "Copyright © 2024-present vmf-kit",
     },
 
     // 搜索

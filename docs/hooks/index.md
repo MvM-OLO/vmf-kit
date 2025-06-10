@@ -2,18 +2,18 @@
 
 ## 介绍
 
-`@vm-kit/hooks` 提供了一系列可复用的 Vue Composition API Hooks，帮助你更好地组织和复用组件逻辑。
+`@vmf-kit/hooks` 提供了一系列可复用的 Vue Composition API Hooks，帮助你更好地组织和复用组件逻辑。
 
 ## 安装
 
 ```bash
-npm install @vm-kit/hooks
+npm install @vmf-kit/hooks
 ```
 
 ## 使用方式
 
 ```ts
-import { useCustomHook } from "@vm-kit/hooks";
+import { useCustomHook } from "@vmf-kit/hooks";
 
 // 在组件中使用
 const { data, loading } = useCustomHook();
@@ -73,7 +73,7 @@ const { data, loading } = useCustomHook();
 ### useToggle
 
 ```ts
-import { useToggle } from "@vm-kit/hooks";
+import { useToggle } from "@vmf-kit/hooks";
 
 const [state, { toggle, setLeft, setRight }] = useToggle();
 
@@ -88,7 +88,7 @@ setRight();
 ### useRequest
 
 ```ts
-import { useRequest } from "@vm-kit/hooks";
+import { useRequest } from "@vmf-kit/hooks";
 
 const { data, loading, error, run } = useRequest(async () => {
   const res = await fetch("https://api.example.com/data");
@@ -102,7 +102,7 @@ run();
 ### useEventListener
 
 ```ts
-import { useEventListener } from "@vm-kit/hooks";
+import { useEventListener } from "@vmf-kit/hooks";
 
 // 添加点击事件监听
 useEventListener("click", (event) => {
