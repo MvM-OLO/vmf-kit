@@ -2,18 +2,18 @@
 
 ## 介绍
 
-`@ydzsfront/hooks` 提供了一系列可复用的 Vue Composition API Hooks，帮助你更好地组织和复用组件逻辑。
+`@vm-kit/hooks` 提供了一系列可复用的 Vue Composition API Hooks，帮助你更好地组织和复用组件逻辑。
 
 ## 安装
 
 ```bash
-npm install @ydzsfront/hooks
+npm install @vm-kit/hooks
 ```
 
 ## 使用方式
 
 ```ts
-import { useCustomHook } from "@ydzsfront/hooks";
+import { useCustomHook } from "@vm-kit/hooks";
 
 // 在组件中使用
 const { data, loading } = useCustomHook();
@@ -73,7 +73,7 @@ const { data, loading } = useCustomHook();
 ### useToggle
 
 ```ts
-import { useToggle } from "@ydzsfront/hooks";
+import { useToggle } from "@vm-kit/hooks";
 
 const [state, { toggle, setLeft, setRight }] = useToggle();
 
@@ -88,7 +88,7 @@ setRight();
 ### useRequest
 
 ```ts
-import { useRequest } from "@ydzsfront/hooks";
+import { useRequest } from "@vm-kit/hooks";
 
 const { data, loading, error, run } = useRequest(async () => {
   const res = await fetch("https://api.example.com/data");
@@ -102,7 +102,7 @@ run();
 ### useEventListener
 
 ```ts
-import { useEventListener } from "@ydzsfront/hooks";
+import { useEventListener } from "@vm-kit/hooks";
 
 // 添加点击事件监听
 useEventListener("click", (event) => {

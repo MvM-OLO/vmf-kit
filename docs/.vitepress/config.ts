@@ -2,11 +2,11 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "YdzsFront 云滴",
+  title: "VM KIT",
   description: "基于 Vue3 的前端整合包",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/ydzs_front.png",
+    logo: "/multifunc_kit_icon.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
@@ -73,7 +73,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present YdzsFront",
+      copyright: "Copyright © 2024-present vm-kit",
     },
 
     // 搜索

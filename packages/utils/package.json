@@ -1,5 +1,5 @@
 {
-  "name": "@ydzs/utils",
+  "name": "@vm-kit/utils",
   "version": "0.0.1",
   "type": "module",
   "dependencies": {

@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="header-content">
-        <div class="logo"><img :src="Logo" /> YDZS 前端组件库</div>
+        <div class="logo"><img :src="Logo" /> vm-kit 前端组件库</div>
         <div class="header-right"></div>
       </div>
     </header>
@@ -24,7 +24,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import SideMenu from "@components/SideMenu.vue";
-import Logo from "@assets/ydzs_front.png";
+import Logo from "@assets/multifunc_kit_icon.png";
 
 const isCollapsed = ref(false);
 </script>

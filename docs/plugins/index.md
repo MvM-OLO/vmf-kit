@@ -2,12 +2,12 @@
 
 ## 介绍
 
-`@ydzsfront/plugins` 提供了一系列常用的第三方插件集成，无需复杂配置即可使用。
+`@vm-kit/plugins` 提供了一系列常用的第三方插件集成，无需复杂配置即可使用。
 
 ## 安装
 
 ```bash
-npm install @ydzsfront/plugins
+npm install @vm-kit/plugins
 ```
 
 ## 插件列表
@@ -19,7 +19,7 @@ npm install @ydzsfront/plugins
 提供了基于 Axios 的 HTTP 请求封装，包含请求拦截、响应拦截、错误处理等功能。
 
 ```ts
-import { useAxios } from "@ydzsfront/plugins";
+import { useAxios } from "@vm-kit/plugins";
 
 const axios = useAxios({
   baseURL: "https://api.example.com",
@@ -37,7 +37,7 @@ axios.get("/users");
 提供了 Pinia 状态管理的集成和常用配置。
 
 ```ts
-import { usePiniaPlugin } from "@ydzsfront/plugins";
+import { usePiniaPlugin } from "@vm-kit/plugins";
 import { createApp } from "vue";
 import App from "./App.vue";
 
@@ -52,7 +52,7 @@ app.use(usePiniaPlugin());
 提供了 Vue Router 的增强功能，包括路由守卫、权限控制等。
 
 ```ts
-import { useRouter } from "@ydzsfront/plugins";
+import { useRouter } from "@vm-kit/plugins";
 
 const router = useRouter({
   routes: [],
@@ -71,7 +71,7 @@ const router = useRouter({
 集成了常用的图标库。
 
 ```ts
-import { Icon } from "@ydzsfront/plugins";
+import { Icon } from "@vm-kit/plugins";
 
 // 使用图标
 <Icon name="user" />;
@@ -82,7 +82,7 @@ import { Icon } from "@ydzsfront/plugins";
 提供了主题切换和自定义主题的功能。
 
 ```ts
-import { useTheme } from "@ydzsfront/plugins";
+import { useTheme } from "@vm-kit/plugins";
 
 const theme = useTheme();
 // 切换主题
@@ -96,7 +96,7 @@ theme.setTheme("dark");
 提供了统一的日志记录和管理功能。
 
 ```ts
-import { useLogger } from "@ydzsfront/plugins";
+import { useLogger } from "@vm-kit/plugins";
 
 const logger = useLogger();
 logger.info("操作信息");
@@ -108,7 +108,7 @@ logger.error("错误信息");
 提供了统一的缓存管理接口。
 
 ```ts
-import { useCache } from "@ydzsfront/plugins";
+import { useCache } from "@vm-kit/plugins";
 
 const cache = useCache();
 // 设置缓存
@@ -168,7 +168,7 @@ import {
   useRouter,
   useLogger,
   useCache,
-} from "@ydzsfront/plugins";
+} from "@vm-kit/plugins";
 import App from "./App.vue";
 
 const app = createApp(App);

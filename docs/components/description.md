@@ -10,7 +10,7 @@ Description 组件用于展示多个只读字段的详情信息。
 </template>
 
 <script setup>
-import { useYDescription } from "ydzsfront/components";
+import { useYDescription } from "vm-kit/components";
 
 const [registerDescription] = useYDescription({
   data: {

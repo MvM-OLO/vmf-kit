@@ -1,41 +1,41 @@
 <p align="center"> <span >
-<img src="./public/ydzs_front.png" width = "50" height = "50" alt="图片名称" align=center />
+<img src="./public/multifunc_kit_icon.png" width = "50" height = "50" alt="图片名称" align=center />
 </p>
 
-<h1 align="center">云滴前端整合包</h1>
+<h1 align="center">VM-KIT VUE3 多功能前端整合包</h1>
 <p align="center">一个 <span style="text-decoration:line-through;">实用</span>（开发中）的前端库。</p>
 
 ## 📦 安装
 
 ```bash
-npm install ydzs-front
+npm install vm-kit
 # 或者
-pnpm add ydzs-front
+pnpm add vm-kit
 # 或者
-yarn add ydzs-front
+yarn add vm-kit
 ```
 
 ## 🔨 模块说明
 
-| 模块       | 描述                 | 路径                  |
-| :--------- | :------------------- | :-------------------- |
-| Constants  | 常量                 | ydzs-front/constants  |
-| Plugins    | 二次封装的第三方插件 | ydzs-front/plugins    |
-| Components | 通用组件             | ydzs-front/components |
-| Utils      | 工具函数             | ydzs-front/utils      |
-| Hooks      | Vue Hooks            | ydzs-front/hooks      |
+| 模块       | 描述                 | 路径              |
+| :--------- | :------------------- | :---------------- |
+| Constants  | 常量                 | vm-kit/constants  |
+| Plugins    | 二次封装的第三方插件 | vm-kit/plugins    |
+| Components | 通用组件             | vm-kit/components |
+| Utils      | 工具函数             | vm-kit/utils      |
+| Hooks      | Vue Hooks            | vm-kit/hooks      |
 
 ## 📝 使用示例
 
 ```typescript
 // 方式一：从主包导入
-import { Constants, Utils } from "ydzs-front";
+import { Constants, Utils } from "vm-kit";
 const { PCA_CODE } = Constants;
 const { merge, cn } = Utils;
 
 // 方式二：从子包导入（推荐，tree-shaking 更友好）
-import { PCA_CODE } from "ydzs-front/constants";
-import { merge, cn } from "ydzs-front/utils";
+import { PCA_CODE } from "vm-kit/constants";
+import { merge, cn } from "vm-kit/utils";
 ```
 
 ## 📚 详细说明
@@ -85,7 +85,7 @@ import { merge, cn } from "ydzs-front/utils";
 
 ## 文档地址
 
-[文档地址](https://ydzs-front.vercel.app/)
+[文档地址](https://vm-kit.vercel.app/)
 
 ## 👥 作者
 

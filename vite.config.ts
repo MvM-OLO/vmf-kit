@@ -22,7 +22,7 @@ export default defineConfig({
         components: resolve(__dirname, "./packages/components/index.ts"),
         hooks: resolve(__dirname, "./packages/hooks/index.ts"),
       },
-      name: "ydzsPackages",
+      name: "vm-packages",
     },
     rollupOptions: {
       external: ["vue"],

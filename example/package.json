@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ydzs/comp": "workspace:*",
-    "@ydzs/plugins": "workspace:*",
+    "@vm-kit/comp": "workspace:*",
+    "@vm-kit/plugins": "workspace:*",
     "less": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:",

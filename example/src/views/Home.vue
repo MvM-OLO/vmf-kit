@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="welcome-section">
-      <h1>欢迎使用 YDZS</h1>
+      <h1>欢迎使用 vm-kit</h1>
       <p class="subtitle">一个现代化的前端开发框架</p>
     </div>
   </div>

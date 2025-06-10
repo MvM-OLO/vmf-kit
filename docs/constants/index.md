@@ -2,18 +2,18 @@
 
 ## 介绍
 
-`@ydzsfront/constants` 提供了项目中常用的常量定义，帮助统一管理和维护各类常量值。
+`@vm-kit/constants` 提供了项目中常用的常量定义，帮助统一管理和维护各类常量值。
 
 ## 安装
 
 ```bash
-npm install @ydzsfront/constants
+npm install @vm-kit/constants
 ```
 
 ## 使用方式
 
 ```ts
-import { STATUS_CODES, HTTP_METHODS } from "@ydzsfront/constants";
+import { STATUS_CODES, HTTP_METHODS } from "@vm-kit/constants";
 ```
 
 ## 常量分类
@@ -115,7 +115,7 @@ export const THEME_COLORS = {
 ### 状态码判断
 
 ```ts
-import { STATUS_CODES } from "@ydzsfront/constants";
+import { STATUS_CODES } from "@vm-kit/constants";
 
 function handleResponse(code: number) {
   if (code === STATUS_CODES.SUCCESS) {
@@ -129,7 +129,7 @@ function handleResponse(code: number) {
 ### 时间计算
 
 ```ts
-import { TIME_UNITS } from "@ydzsfront/constants";
+import { TIME_UNITS } from "@vm-kit/constants";
 
 // 计算 5 分钟后的时间
 const fiveMinutesLater = Date.now() + 5 * TIME_UNITS.MINUTE;
@@ -138,7 +138,7 @@ const fiveMinutesLater = Date.now() + 5 * TIME_UNITS.MINUTE;
 ### 文件大小格式化
 
 ```ts
-import { FILE_SIZE_UNITS } from "@ydzsfront/constants";
+import { FILE_SIZE_UNITS } from "@vm-kit/constants";
 
 function formatFileSize(bytes: number) {
   if (bytes < FILE_SIZE_UNITS.KB) {
