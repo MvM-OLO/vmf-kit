@@ -1,4 +1,8 @@
-import { HomeOutlined } from "@ant-design/icons-vue";
+import {
+  HomeOutlined,
+  AppstoreOutlined,
+  FileSearchOutlined,
+} from "@ant-design/icons-vue";
 import type { RouteItem } from "@/types/route";
 
 const routes: RouteItem[] = [
@@ -20,6 +24,27 @@ const routes: RouteItem[] = [
           title: "首页",
           icon: HomeOutlined,
         },
+      },
+      {
+        path: "/components",
+        name: "Components",
+        redirect: "/components/file-preview",
+        meta: {
+          title: "组件",
+          icon: AppstoreOutlined,
+        },
+        children: [
+          {
+            path: "/components/file-preview",
+            name: "FilePreviewDemo",
+            component: () =>
+              import("@views/components/FilePreviewDemo.vue"),
+            meta: {
+              title: "FilePreview 文件预览",
+              icon: FileSearchOutlined,
+            },
+          },
+        ],
       },
     ],
   },

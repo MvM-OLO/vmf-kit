@@ -23,20 +23,23 @@ export default defineConfig({
           text: "指南",
           items: [
             { text: "快速开始", link: "/guide/getting-started" },
-            { text: "安装", link: "/guide/installation" },
-            { text: "介绍", link: "/guide/introduction" },
           ],
         },
       ],
       "/components/": [
         {
-          text: "基础组件",
+          text: "组件",
           items: [
             { text: "组件总览", link: "/components/" },
-            { text: "Button 按钮", link: "/components/button" },
-            { text: "Page 页面", link: "/components/page" },
-            { text: "Description 描述列表", link: "/components/description" },
-            { text: "IconPicker 图标选择器", link: "/components/icon-picker" },
+          ],
+        },
+        {
+          text: "业务组件",
+          items: [
+            {
+              text: "FilePreview 文件预览",
+              link: "/components/file-preview",
+            },
           ],
         },
       ],

@@ -4,5 +4,5 @@ import components from './src/index';
 export * from './src/index';
 
 export default {
-  install: app => components.forEach(c => app.use(c)),
+  install: (app: any) => components.forEach((c: any) => app.use(c)),
 };

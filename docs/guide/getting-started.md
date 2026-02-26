@@ -38,11 +38,8 @@ import { merge, cn } from "vmf-kit/utils";
 
 组件库提供了一系列开箱即用的 Vue 组件，包括：
 
-- Button 按钮
-- Page 页面容器
-- Description 描述列表
-- IconPicker 图标选择器
-- 更多组件...
+- FilePreview 文件预览
+- 更多组件持续开发中...
 
 ### Utils
 
@@ -84,7 +81,3 @@ vmf-kit 支持所有现代浏览器，需要：
 - [探索 Hooks](/hooks/)
 - [常量参考](/constants/)
 - [插件使用](/plugins/)
-
-```
-
-```
