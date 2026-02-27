@@ -57,8 +57,23 @@ import { merge, cn } from "vmf-kit/utils";
 
 ### 🎨 Components 组件
 
-- Button 按钮组件
-- Page 页面组件
+- **FilePreview 文件预览** - 通用文件预览组件，纯前端实现，支持：
+  - 图片预览（缩放/旋转/拖拽）
+  - PDF 预览（多页渲染）
+  - Word (.docx) 预览
+  - Excel (.xlsx/.xls/.csv) 预览（多 Sheet 切换）
+  - PPT (.pptx) 预览
+  - 文本文件预览
+  - 代码文件语法高亮（支持 20+ 语言）
+
+- **RichTextEditor 富文本编辑器** - 基于 Tiptap 2.x 的富文本编辑器，支持：
+  - 全功能工具栏（文字格式、标题、列表、表格、代码块、图片、链接等）
+  - 工具栏可配置，按需显示/隐藏工具项
+  - SVG 图标，所有平台渲染一致
+  - 文件选择弹窗上传图片（支持截图粘贴、拖拽上传）
+  - 内联弹出框插入链接
+  - 配套 RichTextViewer 只读渲染组件
+
 - 更多组件开发中...
 
 ### 🛠 Utils 工具函数

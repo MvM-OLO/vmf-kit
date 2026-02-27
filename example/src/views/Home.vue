@@ -58,6 +58,7 @@ import {
   BuildOutlined,
   ApiOutlined,
   FileSearchOutlined,
+  EditOutlined,
   RightOutlined,
 } from "@ant-design/icons-vue";
 import Logo from "@assets/multifunc_kit_icon.png";
@@ -86,6 +87,12 @@ const components = [
     name: "FilePreview 文件预览",
     desc: "通用文件预览，支持图片/PDF/Word/Excel/PPT/代码等",
     path: "/components/file-preview",
+  },
+  {
+    icon: EditOutlined,
+    name: "RichTextEditor 富文本编辑器",
+    desc: "基于 Tiptap 的富文本编辑器，支持截图粘贴上传",
+    path: "/components/rich-text-editor",
   },
 ];
 </script>

@@ -40,6 +40,10 @@ export default defineConfig({
               text: "FilePreview 文件预览",
               link: "/components/file-preview",
             },
+            {
+              text: "RichTextEditor 富文本编辑器",
+              link: "/components/rich-text-editor",
+            },
           ],
         },
       ],

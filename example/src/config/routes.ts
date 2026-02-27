@@ -2,6 +2,7 @@ import {
   HomeOutlined,
   AppstoreOutlined,
   FileSearchOutlined,
+  EditOutlined,
 } from "@ant-design/icons-vue";
 import type { RouteItem } from "@/types/route";
 
@@ -42,6 +43,16 @@ const routes: RouteItem[] = [
             meta: {
               title: "FilePreview 文件预览",
               icon: FileSearchOutlined,
+            },
+          },
+          {
+            path: "/components/rich-text-editor",
+            name: "RichTextEditorDemo",
+            component: () =>
+              import("@views/components/RichTextEditorDemo.vue"),
+            meta: {
+              title: "RichTextEditor 富文本",
+              icon: EditOutlined,
             },
           },
         ],
